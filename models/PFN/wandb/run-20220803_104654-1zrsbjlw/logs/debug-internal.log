@@ -1,0 +1,1059 @@
+2022-08-03 10:46:56,284 INFO    MainThread:127236 [internal.py:wandb_internal():90] W&B internal server running at pid: 127236, started at: 2022-08-03 10:46:56.284631
+2022-08-03 10:46:56,286 INFO    WriterThread:127236 [datastore.py:open_for_write():75] open: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/run-1zrsbjlw.wandb
+2022-08-03 10:46:56,291 DEBUG   SenderThread:127236 [sender.py:send():232] send: header
+2022-08-03 10:46:56,291 DEBUG   SenderThread:127236 [sender.py:send():232] send: run
+2022-08-03 10:46:56,407 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: check_version
+2022-08-03 10:46:56,414 INFO    SenderThread:127236 [dir_watcher.py:__init__():166] watching files in: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files
+2022-08-03 10:46:56,415 INFO    SenderThread:127236 [sender.py:_start_run_threads():811] run started: 1zrsbjlw with start time 1659541615
+2022-08-03 10:46:56,415 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:46:56,415 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:46:56,415 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: check_version
+2022-08-03 10:46:56,454 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: run_start
+2022-08-03 10:46:57,425 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_created():213] file/dir created: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:46:58,062 DEBUG   HandlerThread:127236 [meta.py:__init__():35] meta init
+2022-08-03 10:46:58,062 DEBUG   HandlerThread:127236 [meta.py:__init__():49] meta init done
+2022-08-03 10:46:58,063 DEBUG   HandlerThread:127236 [meta.py:probe():209] probe
+2022-08-03 10:46:58,070 DEBUG   HandlerThread:127236 [meta.py:_setup_git():199] setup git
+2022-08-03 10:46:58,089 DEBUG   HandlerThread:127236 [meta.py:_setup_git():206] setup git done
+2022-08-03 10:46:58,089 DEBUG   HandlerThread:127236 [meta.py:_save_pip():53] save pip
+2022-08-03 10:46:58,090 DEBUG   HandlerThread:127236 [meta.py:_save_pip():67] save pip done
+2022-08-03 10:46:58,090 DEBUG   HandlerThread:127236 [meta.py:_save_conda():74] save conda
+2022-08-03 10:46:58,424 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_created():213] file/dir created: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/requirements.txt
+2022-08-03 10:46:58,425 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_created():213] file/dir created: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/conda-environment.yaml
+2022-08-03 10:47:02,182 DEBUG   HandlerThread:127236 [meta.py:_save_conda():84] save conda done
+2022-08-03 10:47:02,182 DEBUG   HandlerThread:127236 [meta.py:probe():247] probe done
+2022-08-03 10:47:02,185 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:47:02,185 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:47:02,187 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:47:02,248 DEBUG   SenderThread:127236 [sender.py:send():232] send: telemetry
+2022-08-03 10:47:02,248 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:47:02,248 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:47:02,250 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:47:02,250 DEBUG   SenderThread:127236 [sender.py:send():232] send: files
+2022-08-03 10:47:02,250 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-08-03 10:47:02,425 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:47:02,426 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/conda-environment.yaml
+2022-08-03 10:47:02,426 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_created():213] file/dir created: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:02,426 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_created():213] file/dir created: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-metadata.json
+2022-08-03 10:47:02,645 INFO    Thread-11 :127236 [upload_job.py:push():137] Uploaded file /tmp/tmpv8lkzdkkwandb/1h3ixlit-wandb-metadata.json
+2022-08-03 10:47:04,426 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:06,427 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:08,428 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:10,429 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:12,430 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:14,431 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:16,432 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:17,251 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:47:17,251 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:47:18,433 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:20,434 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:21,497 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:47:21,497 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:47:21,498 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:47:21,498 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:47:22,435 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:22,435 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:47:24,436 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:26,436 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:27,437 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/config.yaml
+2022-08-03 10:47:28,437 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:30,438 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:31,758 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:47:32,321 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:47:32,321 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:47:32,439 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:34,440 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:36,441 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:38,441 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:40,442 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:41,325 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:47:41,326 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:47:41,326 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:47:41,326 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:47:41,443 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:47:42,443 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:44,444 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:46,445 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:47,373 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:47:47,374 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:47:48,446 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:50,447 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:52,448 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:54,448 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:56,449 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:47:58,450 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:00,451 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:00,754 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:48:00,755 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:48:00,755 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:48:00,756 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:48:01,452 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:48:02,442 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:48:02,449 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:48:02,452 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:04,453 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:06,454 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:07,616 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:48:08,455 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:10,456 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:12,457 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:14,458 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:16,459 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:17,501 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:48:17,502 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:48:18,460 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:20,461 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:20,526 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:48:20,527 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:48:20,527 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:48:20,528 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:48:21,461 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:48:22,462 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:24,462 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:26,464 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:28,464 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:30,465 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:32,466 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:32,563 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:48:32,564 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:48:34,467 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:36,468 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:38,469 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:40,470 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:40,674 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:48:40,675 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:48:40,675 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:48:40,676 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:48:41,471 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:48:42,471 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:43,266 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:48:44,472 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:46,474 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:47,615 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:48:47,616 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:48:48,474 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:50,475 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:52,476 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:54,477 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:56,478 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:48:58,479 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:00,249 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:49:00,250 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:49:00,251 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:49:00,251 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:49:00,480 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:00,480 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:49:02,481 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:02,668 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:49:02,668 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:49:04,483 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:06,484 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:08,485 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:10,486 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:12,487 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:14,488 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:16,489 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:17,759 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:49:17,759 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:49:18,490 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:19,031 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:49:19,714 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:49:19,714 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:49:19,715 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:49:19,715 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:49:20,490 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:20,491 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:49:22,491 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:24,492 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:26,493 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:28,494 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:30,495 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:32,496 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:32,813 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:49:32,813 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:49:34,497 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:36,498 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:38,498 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:39,678 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:49:39,679 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:49:39,680 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:49:39,680 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:49:40,500 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:40,500 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:49:42,501 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:44,502 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:46,502 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:47,869 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:49:47,870 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:49:48,504 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:50,505 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:52,506 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:54,507 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:54,691 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:49:56,507 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:58,508 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:49:59,517 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:49:59,518 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:49:59,518 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:49:59,519 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:50:00,509 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:00,510 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:50:02,510 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:02,923 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:50:02,924 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:50:04,511 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:06,512 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:08,513 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:10,514 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:12,514 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:14,515 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:16,517 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:17,979 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:50:17,979 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:50:18,517 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:19,157 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:50:19,157 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:50:19,158 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:50:19,158 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:50:19,518 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:50:20,518 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:22,519 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:24,520 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:26,521 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:28,522 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:30,329 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:50:30,522 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:32,524 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:33,038 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:50:33,039 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:50:34,525 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:36,526 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:38,527 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:39,330 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:50:39,331 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:50:39,331 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:50:39,332 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:50:39,527 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:50:40,528 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:42,529 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:44,529 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:46,530 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:48,095 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:50:48,095 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:50:48,531 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:50,532 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:52,538 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:54,534 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:56,535 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:58,538 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:50:59,402 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:50:59,402 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:50:59,403 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:50:59,403 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:50:59,538 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:51:00,539 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:02,540 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:03,157 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:51:03,157 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:51:04,541 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:06,024 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:51:06,542 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:08,542 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:10,543 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:12,544 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:14,544 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:16,546 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:18,218 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:51:18,219 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:51:18,547 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:19,593 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:51:19,594 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:51:19,594 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:51:19,595 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:51:20,548 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:20,548 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:51:22,549 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:24,550 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:26,550 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:28,552 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:30,552 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:32,553 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:33,287 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:51:33,287 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:51:34,555 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:36,556 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:38,556 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:39,601 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:51:39,602 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:51:39,602 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:51:39,603 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:51:40,557 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:40,557 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:51:41,725 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:51:42,558 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:44,559 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:46,560 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:48,348 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:51:48,348 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:51:48,561 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:50,562 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:52,563 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:54,564 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:56,565 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:58,566 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:51:59,500 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:51:59,501 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:51:59,502 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:51:59,502 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:51:59,566 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:52:00,567 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:02,567 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:03,424 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:52:03,425 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:52:04,569 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:06,569 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:08,570 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:10,571 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:12,572 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:14,575 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:16,576 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:17,568 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:52:18,577 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:19,610 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:52:19,611 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:52:19,776 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:52:19,777 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:52:19,778 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:52:19,778 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:52:20,578 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:20,578 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:52:22,579 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:24,580 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:26,581 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:28,582 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:30,583 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:32,585 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:34,586 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:34,663 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:52:34,663 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:52:36,587 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:38,587 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:39,617 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:52:39,618 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:52:39,618 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:52:39,618 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:52:40,588 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:40,588 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:52:42,589 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:44,590 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:46,591 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:48,592 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:49,715 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:52:49,715 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:52:50,592 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:52,593 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:53,398 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:52:54,594 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:56,595 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:58,596 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:52:59,515 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:52:59,516 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:52:59,516 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:52:59,517 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:52:59,596 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:53:00,597 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:02,597 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:04,598 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:04,767 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:53:04,768 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:53:06,599 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:08,600 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:10,601 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:12,602 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:14,603 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:16,603 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:18,604 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:19,365 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:53:19,366 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:53:19,367 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:53:19,367 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:53:19,604 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:53:19,827 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:53:19,827 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:53:20,605 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:22,606 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:24,607 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:26,608 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:28,610 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:29,181 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:53:30,611 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:32,613 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:34,614 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:34,878 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:53:34,879 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:53:36,615 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:38,616 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:39,242 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:53:39,243 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:53:39,243 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:53:39,244 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:53:39,617 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:53:40,620 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:42,621 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:44,623 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:46,624 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:48,625 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:49,937 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:53:49,938 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:53:50,626 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:52,627 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:54,628 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:56,629 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:58,629 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:53:59,505 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:53:59,506 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:53:59,506 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:53:59,507 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:53:59,630 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:54:00,630 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:02,631 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:04,633 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:04,993 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:54:04,993 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:54:05,101 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:54:06,633 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:08,635 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:10,636 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:12,636 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:14,637 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:16,638 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:18,639 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:18,962 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:54:18,963 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:54:18,964 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:54:18,964 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:54:19,640 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:54:20,048 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:54:20,048 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:54:20,640 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:22,641 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:24,643 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:27,644 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:29,644 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:31,645 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:33,646 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:35,158 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:54:35,158 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:54:35,647 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:37,648 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:38,779 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:54:38,779 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:54:38,780 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:54:38,780 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:54:39,649 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:39,649 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:54:40,650 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:40,908 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:54:41,650 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:43,651 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:45,652 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:47,653 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:49,654 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:50,217 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:54:50,217 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:54:51,655 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:53,656 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:55,657 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:57,658 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:54:58,357 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:54:58,357 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:54:58,358 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:54:58,358 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:54:58,658 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:54:59,659 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:00,659 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:01,660 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:03,660 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:05,279 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:55:05,279 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:55:05,661 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:07,662 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:09,663 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:11,664 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:13,665 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:15,666 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:16,757 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:55:17,667 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:17,867 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:55:17,867 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:55:17,868 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:55:17,868 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:55:18,668 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:55:19,668 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:20,329 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:55:20,329 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:55:20,668 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:21,669 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:23,670 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:25,671 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:27,672 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:29,673 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:31,674 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:33,675 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:35,381 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:55:35,381 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:55:35,676 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:37,191 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:55:37,191 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:55:37,192 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:55:37,193 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:55:37,676 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:37,677 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:55:38,677 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:39,677 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:41,684 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:43,685 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:45,686 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:47,687 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:49,688 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:50,440 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:55:50,441 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:55:51,689 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:52,421 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:55:53,691 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:55,692 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:56,741 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:55:56,741 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:55:56,742 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:55:56,743 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:55:57,693 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:57,693 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:55:58,693 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:55:59,694 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:01,695 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:03,696 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:05,496 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:56:05,497 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:56:05,696 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:07,697 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:09,698 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:11,699 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:13,700 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:15,701 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:16,226 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:56:16,227 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:56:16,227 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:56:16,228 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:56:16,702 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:56:17,702 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:18,703 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:19,703 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:20,553 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:56:20,553 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:56:21,704 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:23,705 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:25,706 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:27,707 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:28,189 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:56:29,708 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:31,713 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:33,710 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:35,611 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:56:35,612 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:56:35,710 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:35,827 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:56:35,827 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:56:35,827 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:56:35,828 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:56:36,711 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:36,711 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:56:37,711 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:39,712 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:41,713 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:43,714 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:45,715 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:47,717 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:49,720 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:50,700 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:56:50,701 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:56:51,718 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:53,719 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:55,720 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:56,054 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:56:56,055 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:56:56,055 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:56:56,056 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:56:56,721 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:56,722 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:56:57,721 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:56:59,723 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:01,723 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:03,725 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:03,987 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:57:05,726 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:06,323 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:57:06,323 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:57:07,727 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:09,728 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:11,729 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:13,730 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:15,731 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:15,848 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:57:15,849 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:57:15,849 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:57:15,849 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:57:16,731 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:16,732 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:57:17,732 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:19,733 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:21,412 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:57:21,412 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:57:21,734 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:23,735 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:25,736 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:27,737 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:29,738 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:31,739 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:33,740 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:35,484 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:57:35,485 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:57:35,485 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:57:35,486 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:57:35,742 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:35,742 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:57:36,472 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:57:36,473 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:57:36,742 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:37,743 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:39,744 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:39,806 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:57:41,744 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:43,745 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:45,746 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:47,747 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:49,748 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:51,532 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:57:51,532 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:57:51,749 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:53,750 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:55,279 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:57:55,280 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:57:55,280 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:57:55,281 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:57:55,751 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:55,751 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:57:56,752 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:57,752 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:57:59,753 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:01,754 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:03,755 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:05,759 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:06,584 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:58:06,584 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:58:07,759 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:09,761 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:11,761 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:13,763 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:15,125 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:58:15,126 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:58:15,126 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:58:15,127 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:58:15,541 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:58:15,764 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:15,764 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:58:16,764 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:17,765 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:19,766 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:21,650 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:58:21,650 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:58:21,767 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:23,768 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:25,769 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:27,770 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:29,771 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:31,772 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:33,773 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:35,012 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:58:35,013 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:58:35,014 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:58:35,014 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:58:35,774 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:35,774 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:58:36,704 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:58:36,705 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:58:36,774 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:37,775 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:39,776 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:41,777 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:43,778 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:45,779 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:47,780 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:49,780 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:51,437 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:58:51,759 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:58:51,759 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:58:51,781 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:53,782 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:54,829 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:58:54,830 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:58:54,831 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:58:54,831 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:58:55,783 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:55,783 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:58:56,783 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:57,784 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:58:59,785 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:01,786 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:03,787 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:05,788 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:06,824 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:59:06,824 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:59:07,789 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:09,790 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:11,791 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:13,792 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:15,008 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:59:15,010 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:59:15,010 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:59:15,011 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:59:15,794 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:15,794 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:59:17,795 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:19,795 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:21,796 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:21,876 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:59:21,876 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:59:23,797 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:25,798 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:27,272 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 10:59:27,799 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:29,800 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:31,802 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:33,805 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:34,856 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:59:34,856 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:59:34,857 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:59:34,857 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:59:35,806 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:35,807 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:59:36,930 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:59:36,930 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:59:37,808 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:39,809 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:41,810 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:43,813 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:45,813 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:47,814 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:49,815 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:51,816 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:52,011 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 10:59:52,011 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 10:59:53,817 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:54,730 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 10:59:54,731 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 10:59:54,731 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 10:59:54,731 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 10:59:54,818 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 10:59:55,818 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:57,819 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 10:59:59,820 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:01,821 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:03,190 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 11:00:03,823 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:05,823 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:07,071 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:00:07,072 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:00:07,824 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:09,825 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:11,826 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:13,827 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:14,687 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:00:14,688 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:00:14,688 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:00:14,689 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:00:14,829 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:00:15,829 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:17,830 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:19,830 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:21,831 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:22,157 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:00:22,158 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:00:23,832 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:25,833 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:27,834 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:29,835 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:31,836 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:33,836 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:34,408 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:00:34,408 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:00:34,409 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:00:34,409 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:00:34,837 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:00:35,838 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:37,216 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:00:37,216 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:00:37,839 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:38,871 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 11:00:39,840 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:41,841 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:43,842 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:45,843 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:47,844 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:49,845 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:51,846 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:52,299 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:00:52,300 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:00:53,846 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:54,107 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:00:54,108 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:00:54,108 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:00:54,109 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:00:54,847 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:00:55,847 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:57,848 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:00:59,849 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:01,850 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:03,851 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:05,852 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:07,358 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:01:07,358 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:01:07,854 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:09,854 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:11,855 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:13,781 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:01:13,782 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:01:13,782 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:01:13,783 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:01:13,856 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:13,856 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:01:14,558 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 11:01:15,857 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:17,858 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:19,859 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:21,860 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:22,415 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:01:22,416 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:01:24,861 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:26,863 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:28,864 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:30,864 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:32,865 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:33,675 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:01:33,676 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:01:33,676 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:01:33,677 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:01:33,866 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:01:34,866 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:35,867 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:36,868 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:37,475 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:01:37,475 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:01:38,869 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:40,870 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:42,870 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:44,872 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:46,873 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:48,880 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:50,200 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 11:01:50,881 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:52,534 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:01:52,534 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:01:52,882 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:53,675 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:01:53,676 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:01:53,677 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:01:53,677 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:01:53,882 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:01:54,883 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:55,884 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:56,886 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:01:58,886 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:00,887 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:02,888 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:04,890 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:06,891 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:07,680 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:02:07,680 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:02:08,892 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:10,892 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:12,893 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:14,064 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:02:14,065 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:02:14,066 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:02:14,066 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:02:14,894 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:14,895 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:02:15,895 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:16,895 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:18,896 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:20,898 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:22,764 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:02:22,765 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:02:22,899 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:24,899 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:25,922 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 11:02:26,901 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:28,902 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:30,903 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:32,904 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:34,215 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:02:34,216 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:02:34,216 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:02:34,217 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:02:34,905 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:34,905 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:02:35,906 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:36,906 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:37,819 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:02:37,820 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:02:38,912 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:40,913 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:42,914 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:44,916 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:46,917 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:48,917 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:50,919 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:52,875 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:02:52,876 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:02:52,919 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:54,163 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:02:54,164 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:02:54,165 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:02:54,165 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:02:54,921 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:54,921 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:02:55,921 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:56,921 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:02:58,922 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:00,923 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:01,525 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 11:03:02,924 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:04,925 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:06,926 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:07,962 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 11:03:07,962 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 11:03:08,927 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:10,929 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:12,929 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:14,198 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: partial_history
+2022-08-03 11:03:14,199 DEBUG   SenderThread:127236 [sender.py:send():232] send: history
+2022-08-03 11:03:14,199 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:03:14,200 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:03:14,204 DEBUG   SenderThread:127236 [sender.py:send():232] send: telemetry
+2022-08-03 11:03:14,930 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:14,930 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:03:15,931 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:16,859 DEBUG   SenderThread:127236 [sender.py:send():232] send: exit
+2022-08-03 11:03:16,860 INFO    SenderThread:127236 [sender.py:send_exit():368] handling exit code: 0
+2022-08-03 11:03:16,860 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:16,860 INFO    SenderThread:127236 [sender.py:send_exit():370] handling runtime: 980
+2022-08-03 11:03:16,860 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:03:16,860 INFO    SenderThread:127236 [sender.py:send_exit():376] send defer
+2022-08-03 11:03:16,861 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:16,861 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:16,861 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-03 11:03:16,861 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:16,861 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-08-03 11:03:16,861 INFO    SenderThread:127236 [sender.py:transition_state():389] send defer: 1
+2022-08-03 11:03:16,861 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:16,861 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-03 11:03:16,931 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:16,931 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:03:17,235 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:17,235 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:17,236 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-08-03 11:03:17,236 INFO    SenderThread:127236 [sender.py:transition_state():389] send defer: 2
+2022-08-03 11:03:17,236 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:17,236 DEBUG   SenderThread:127236 [sender.py:send():232] send: stats
+2022-08-03 11:03:17,236 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:17,236 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-03 11:03:17,236 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:17,236 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-08-03 11:03:17,237 INFO    SenderThread:127236 [sender.py:transition_state():389] send defer: 3
+2022-08-03 11:03:17,237 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:17,237 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-03 11:03:17,237 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:17,237 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-08-03 11:03:17,237 INFO    SenderThread:127236 [sender.py:transition_state():389] send defer: 4
+2022-08-03 11:03:17,237 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:17,237 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-03 11:03:17,237 DEBUG   SenderThread:127236 [sender.py:send():232] send: summary
+2022-08-03 11:03:17,237 INFO    SenderThread:127236 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-08-03 11:03:17,238 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:17,238 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-08-03 11:03:17,238 INFO    SenderThread:127236 [sender.py:transition_state():389] send defer: 5
+2022-08-03 11:03:17,238 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:17,238 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-03 11:03:17,238 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:17,238 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-08-03 11:03:17,337 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:17,368 INFO    SenderThread:127236 [sender.py:transition_state():389] send defer: 6
+2022-08-03 11:03:17,369 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:17,369 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:17,369 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-03 11:03:17,369 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:17,369 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-08-03 11:03:17,369 INFO    SenderThread:127236 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-08-03 11:03:17,469 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:17,932 INFO    Thread-7  :127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/config.yaml
+2022-08-03 11:03:17,932 INFO    SenderThread:127236 [dir_watcher.py:_on_file_modified():226] file/dir modified: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:03:17,932 INFO    SenderThread:127236 [dir_watcher.py:finish():309] scan: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files
+2022-08-03 11:03:17,932 INFO    SenderThread:127236 [dir_watcher.py:finish():323] scan save: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/conda-environment.yaml conda-environment.yaml
+2022-08-03 11:03:17,933 INFO    SenderThread:127236 [dir_watcher.py:finish():323] scan save: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/config.yaml config.yaml
+2022-08-03 11:03:17,933 INFO    SenderThread:127236 [dir_watcher.py:finish():323] scan save: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log output.log
+2022-08-03 11:03:17,933 INFO    SenderThread:127236 [dir_watcher.py:finish():323] scan save: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/requirements.txt requirements.txt
+2022-08-03 11:03:17,934 INFO    SenderThread:127236 [dir_watcher.py:finish():323] scan save: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json wandb-summary.json
+2022-08-03 11:03:17,939 INFO    SenderThread:127236 [dir_watcher.py:finish():323] scan save: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-metadata.json wandb-metadata.json
+2022-08-03 11:03:17,940 INFO    SenderThread:127236 [sender.py:transition_state():389] send defer: 7
+2022-08-03 11:03:17,940 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:17,940 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:17,942 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-03 11:03:17,949 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:17,949 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-08-03 11:03:17,949 INFO    SenderThread:127236 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-03 11:03:18,041 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:18,041 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:18,142 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:18,142 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:18,243 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:18,243 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:18,254 INFO    Thread-13 :127236 [upload_job.py:push():137] Uploaded file /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/config.yaml
+2022-08-03 11:03:18,268 INFO    Thread-12 :127236 [upload_job.py:push():137] Uploaded file /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/conda-environment.yaml
+2022-08-03 11:03:18,296 INFO    Thread-16 :127236 [upload_job.py:push():137] Uploaded file /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/wandb-summary.json
+2022-08-03 11:03:18,311 INFO    Thread-15 :127236 [upload_job.py:push():137] Uploaded file /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/requirements.txt
+2022-08-03 11:03:18,339 INFO    Thread-14 :127236 [upload_job.py:push():137] Uploaded file /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/files/output.log
+2022-08-03 11:03:18,344 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:18,344 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:18,445 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:18,445 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:18,539 INFO    Thread-6  :127236 [sender.py:transition_state():389] send defer: 8
+2022-08-03 11:03:18,540 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:18,540 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-03 11:03:18,540 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:18,540 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-08-03 11:03:18,546 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:19,073 INFO    SenderThread:127236 [sender.py:transition_state():389] send defer: 9
+2022-08-03 11:03:19,074 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:19,074 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:19,074 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-03 11:03:19,074 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:19,074 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-08-03 11:03:19,074 INFO    SenderThread:127236 [sender.py:transition_state():389] send defer: 10
+2022-08-03 11:03:19,075 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 11:03:19,075 DEBUG   SenderThread:127236 [sender.py:send():232] send: final
+2022-08-03 11:03:19,075 INFO    HandlerThread:127236 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-03 11:03:19,075 DEBUG   SenderThread:127236 [sender.py:send():232] send: footer
+2022-08-03 11:03:19,075 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: defer
+2022-08-03 11:03:19,075 INFO    SenderThread:127236 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-08-03 11:03:19,174 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 11:03:19,175 DEBUG   SenderThread:127236 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 11:03:19,175 INFO    SenderThread:127236 [file_pusher.py:join():150] waiting for file pusher
+2022-08-03 11:03:19,418 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-03 11:03:19,419 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-03 11:03:19,420 DEBUG   HandlerThread:127236 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-03 11:03:19,420 INFO    HandlerThread:127236 [handler.py:finish():806] shutting down handler
+2022-08-03 11:03:20,075 INFO    WriterThread:127236 [datastore.py:close():279] close: /raid/projects/akhot2/toptagger/toPushToGit/models/PFN/wandb/run-20220803_104654-1zrsbjlw/run-1zrsbjlw.wandb
+2022-08-03 11:03:20,317 INFO    SenderThread:127236 [sender.py:finish():1106] shutting down sender
+2022-08-03 11:03:20,317 INFO    SenderThread:127236 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-03 11:03:20,317 INFO    SenderThread:127236 [file_pusher.py:join():150] waiting for file pusher
+2022-08-03 11:03:20,319 INFO    MainThread:127236 [internal.py:handle_exit():80] Internal process exited
