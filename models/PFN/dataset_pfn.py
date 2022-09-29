@@ -30,7 +30,17 @@ class PFNDataset(Dataset):
         df = store.select("table")                     
         n_constits = 200 # use only 200 highest pt jet constituents 
         df_pt_eta_phi = pd.DataFrame()
-
+        
+        e_cols = ["E_{}".format(i) for i in range(200)]
+        px_cols = ["PX_{}".format(i) for i in range(200)]
+        py_cols = ["PY_{}".format(i) for i in range(200)]
+        pz_cols = ["PZ_{}".format(i) for i in range(200)]
+        jet_e = np.array(df[e_cols].sum(axis=1)).reshape(-1,1)
+        jet_px = np.array(df[px_cols].sum(axis=1)).reshape(-1,1)
+        jet_py = np.array(df[py_cols].sum(axis=1)).reshape(-1,1)
+        jet_pz = np.array(df[pz_cols].sum(axis=1)).reshape(-1,1)
+        jet_m = (np.abs(jet_e**2 - jet_px**2 - jet_py**2 -jet_pz**2))**0.5
+        jet_nconst = np.array((df[e_cols] != 0).sum(axis=1)).reshape(-1,1)
         for j in range(n_constits):
             i = str(j)
             #print("Processing constituent #"+str(i))
@@ -66,7 +76,8 @@ class PFNDataset(Dataset):
             df_pt_eta_phi[pt_cols]= df_pt_eta_phi[pt_cols].div(df_pt_eta_phi[pt_cols].sum(axis=1), axis=0)
             df_pt_eta_phi[eta_cols] = df_pt_eta_phi[eta_cols].subtract(pd.Series(jet_eta),axis=0)
             df_pt_eta_phi[phi_cols] = df_pt_eta_phi[phi_cols].subtract(pd.Series(jet_phi),axis=0)
-        
+            jet_pt, jet_eta, jet_phi = jet_pt.reshape(-1,1), jet_eta.reshape(-1,1), jet_phi.reshape(-1,1)
+        self.aug_data = np.concatenate((jet_e, jet_m, jet_pt, jet_eta, jet_phi, jet_nconst), axis = 1)
         self.columns = df_pt_eta_phi.columns
         self.data = df_pt_eta_phi.to_numpy()
         self.mask = np.where(df_pt_eta_phi[pt_cols].to_numpy() != 0, 1, 0)
@@ -86,7 +97,8 @@ class PFNDataset(Dataset):
         label = self.labels[idx]
         item = self.data[idx]
         mask = self.mask[idx]
-        return item, mask, label
+        aug_data = self.aug_data[idx]
+        return item, mask, label, aug_data
     
 if __name__ == "__main__":
     preprocessed=True
